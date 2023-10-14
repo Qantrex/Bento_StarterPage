@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Konstantin',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: "Grüß Gott! Wos gibt's",
+	greetingAfternoon: "Servus! Wie gehts",
+	greetingEvening: "Pfiat di, oida!",
+	greetingNight: 'Schlaf guat und süße Träume',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '9653237b9fa06964a98e0f351efb743e', // Write here your API Key
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '48.208176',
+	defaultLongitude: '16.373819',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://owa.tgm.ac.at/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'E-Learning',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'elearning.tgm.ac.at/',
 		},
 		{
 			id: '4',
@@ -144,7 +144,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://www.youtube.com/watch?v=KdIhq1tb8Co',
 				},
 				{
 					name: 'Oldies',
